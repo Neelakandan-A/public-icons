@@ -1,0 +1,45 @@
+{
+	"sections": [
+		{"about": [
+			{"HDH Nithyananda Paramashivam": "https://shrikailasa.org/reviver"},
+			{"Autobiography": "http://autobiographyoftheavatar.org/"},
+			{"Nithyanandapedia": "http://nithyanandapedia.org/"},
+			{"Shri Kailasa": "https://shrikailasa.org/about"},
+			{"The Hindu Holocaust": "https://shrikailasa.org/persecution"}
+		]},
+		{"teachings": [
+			{"Unclutching": "https://shrikailasa.org/reviver"},
+			{"Science of Completion": "https://shrikailasa.org/reviver"},
+			{"Four Powers": "https://shrikailasa.org/reviver"},
+			{"Third Eye Awakening": "https://shrikailasa.org/reviver"},
+			{"Science of Power Manifestation": "https://shrikailasa.org/reviver"}
+		]}
+	],
+	"copyright-text": "© 2020 Shri Kailasa. All Rights Reserved.",
+	"social-media": [
+		{"twitter": {
+			"link": "https://twitter.com/SriNithyananda",
+			"display-text": "@SriNithyananda"
+		}},
+		{ "facebook": {
+			"link": "https://facebook.com/ParamahamsaNithyananda",
+			"display-text": "/ParamahamsaNithyananda"
+		}},
+		{ "youtube": {
+			"link": "https://youtube.com/nithyanandatv",
+			"display-text": "NithyanandaTV"
+		}},
+		{ "instagram": {
+			"link": "https://instagram.com/srinithyananda",
+			"display-text": "@srinithyananda"
+		}},
+		{ "website": {
+			"link": "https://kailaasa.org/",
+			"display-text": "kailaasa.org"
+		}},
+		{ "email": {
+			"link": "contact@kailaasa.org",
+			"display-text": "contact@kailaasa.org"
+		}}
+	]
+}
