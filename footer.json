@@ -17,29 +17,29 @@
 	],
 	"copyright-text": "© 2020 Shri Kailasa. All Rights Reserved.",
 	"social-media": [
-		{"twitter": {
+		{       "title": "twitter",
 			"link": "https://twitter.com/SriNithyananda",
 			"display-text": "@SriNithyananda"
-		}},
-		{ "facebook": {
+		},
+		{	"title": "facebook",
 			"link": "https://facebook.com/ParamahamsaNithyananda",
 			"display-text": "/ParamahamsaNithyananda"
-		}},
-		{ "youtube": {
+		},
+		{	"title": "youtube",
 			"link": "https://youtube.com/nithyanandatv",
 			"display-text": "NithyanandaTV"
-		}},
-		{ "instagram": {
+		},
+		{	"title": "instagram",
 			"link": "https://instagram.com/srinithyananda",
 			"display-text": "@srinithyananda"
-		}},
-		{ "website": {
+		},
+		{	"title": "website",
 			"link": "https://kailaasa.org/",
 			"display-text": "kailaasa.org"
-		}},
-		{ "email": {
+		},
+		{	"title": "email",
 			"link": "contact@kailaasa.org",
 			"display-text": "contact@kailaasa.org"
-		}}
+		}
 	]
 }
