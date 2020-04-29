@@ -19,27 +19,33 @@
 	"social-media": [
 		{       "title": "twitter",
 			"link": "https://twitter.com/SriNithyananda",
-			"display-text": "@SriNithyananda"
+			"display-text": "@SriNithyananda",
+		 	"icon-url": "https://cdn.jsdelivr.net/gh/shri-kailasa-tech/public-jsons/twitter.png"
 		},
 		{	"title": "facebook",
 			"link": "https://facebook.com/ParamahamsaNithyananda",
-			"display-text": "/ParamahamsaNithyananda"
+			"display-text": "/ParamahamsaNithyananda",
+		 	"icon-url": "https://cdn.jsdelivr.net/gh/shri-kailasa-tech/public-jsons/facebook.png"
 		},
 		{	"title": "youtube",
 			"link": "https://youtube.com/nithyanandatv",
-			"display-text": "NithyanandaTV"
+			"display-text": "NithyanandaTV",
+		 	"icon-url": "https://cdn.jsdelivr.net/gh/shri-kailasa-tech/public-jsons/youtube.png"
 		},
 		{	"title": "instagram",
 			"link": "https://instagram.com/srinithyananda",
-			"display-text": "@srinithyananda"
+			"display-text": "@srinithyananda",
+		 	"icon-url": "https://cdn.jsdelivr.net/gh/shri-kailasa-tech/public-jsons/insta.png"
 		},
 		{	"title": "website",
 			"link": "https://kailaasa.org/",
-			"display-text": "kailaasa.org"
+			"display-text": "kailaasa.org",
+		 	"icon-url": "https://cdn.jsdelivr.net/gh/shri-kailasa-tech/public-jsons/website.png"
 		},
 		{	"title": "email",
 			"link": "contact@kailaasa.org",
-			"display-text": "contact@kailaasa.org"
+			"display-text": "contact@kailaasa.org",
+		 	"icon-url": "https://cdn.jsdelivr.net/gh/shri-kailasa-tech/public-jsons/mail.png"
 		}
 	]
 }
