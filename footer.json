@@ -1,51 +1,87 @@
 {
-	"sections": [
-		{"about": [
-			{"HDH Nithyananda Paramashivam": "https://shrikailasa.org/reviver"},
-			{"Autobiography": "http://autobiographyoftheavatar.org/"},
-			{"Nithyanandapedia": "http://nithyanandapedia.org/"},
-			{"Shri Kailasa": "https://shrikailasa.org/about"},
-			{"The Hindu Holocaust": "https://shrikailasa.org/persecution"}
-		]},
-		{"teachings": [
-			{"Unclutching": "https://shrikailasa.org/reviver"},
-			{"Science of Completion": "https://shrikailasa.org/reviver"},
-			{"Four Powers": "https://shrikailasa.org/reviver"},
-			{"Third Eye Awakening": "https://shrikailasa.org/reviver"},
-			{"Science of Power Manifestation": "https://shrikailasa.org/reviver"}
-		]}
-	],
-	"copyright-text": "© 2020 Shri Kailasa. All Rights Reserved.",
-	"social-media": [
-		{       "title": "twitter",
-			"link": "https://twitter.com/SriNithyananda",
-			"display-text": "@SriNithyananda",
-		 	"icon-url": "https://cdn.jsdelivr.net/gh/shri-kailasa-tech/public/twitter.png"
-		},
-		{	"title": "facebook",
-			"link": "https://facebook.com/ParamahamsaNithyananda",
-			"display-text": "/ParamahamsaNithyananda",
-		 	"icon-url": "https://cdn.jsdelivr.net/gh/shri-kailasa-tech/public/facebook.png"
-		},
-		{	"title": "youtube",
-			"link": "https://youtube.com/nithyanandatv",
-			"display-text": "NithyanandaTV",
-		 	"icon-url": "https://cdn.jsdelivr.net/gh/shri-kailasa-tech/public/youtube.png"
-		},
-		{	"title": "instagram",
-			"link": "https://instagram.com/srinithyananda",
-			"display-text": "@srinithyananda",
-		 	"icon-url": "https://cdn.jsdelivr.net/gh/shri-kailasa-tech/public/insta.png"
-		},
-		{	"title": "website",
-			"link": "https://kailaasa.org/",
-			"display-text": "kailaasa.org",
-		 	"icon-url": "https://cdn.jsdelivr.net/gh/shri-kailasa-tech/public/website.png"
-		},
-		{	"title": "email",
-			"link": "contact@kailaasa.org",
-			"display-text": "contact@kailaasa.org",
-		 	"icon-url": "https://cdn.jsdelivr.net/gh/shri-kailasa-tech/public/mail.png"
-		}
-	]
+    "sections": [
+    {
+        "about": [
+        {
+            "title": "HDH Nithyananda Paramashivam",
+            "url": "https://shrikailasa.org/reviver"
+        },
+        {
+            "title": "Autobiography",
+            "url": "http://autobiographyoftheavatar.org/"
+        },
+        {
+            "title": "Nithyanandapedia",
+            "url": "http://nithyanandapedia.org/"
+        },
+        {
+            "title": "Shri Kailasa",
+            "url": "https://shrikailasa.org/about"
+        },
+        {
+            "title": "The Hindu Holocaust",
+            "url": "https://shrikailasa.org/persecution"
+        }]
+    },
+    {
+        "teachings": [
+        {
+            "title": "Unclutching",
+            "url": "https://shrikailasa.org/reviver"
+        },
+        {
+            "title": "Science of Completion",
+            "url": "https://shrikailasa.org/reviver"
+        },
+        {
+            "title": "Four Powers",
+            "url": "https://shrikailasa.org/reviver"
+        },
+        {
+            "title": "Third Eye Awakening",
+            "url": "https://shrikailasa.org/reviver"
+        },
+        {
+            "title": "Science of Power Manifestation",
+            "url": "https://shrikailasa.org/reviver"
+        }]
+    }],
+    "copyright-text": "© 2020 Shri Kailasa. All Rights Reserved.",
+    "social-media": [
+    {
+        "title": "twitter",
+        "link": "https://twitter.com/SriNithyananda",
+        "display-text": "@SriNithyananda",
+        "icon-url": "https://cdn.jsdelivr.net/gh/shri-kailasa-tech/public/twitter.png"
+    },
+    {
+        "title": "facebook",
+        "link": "https://facebook.com/ParamahamsaNithyananda",
+        "display-text": "/ParamahamsaNithyananda",
+        "icon-url": "https://cdn.jsdelivr.net/gh/shri-kailasa-tech/public/facebook.png"
+    },
+    {
+        "title": "youtube",
+        "link": "https://youtube.com/nithyanandatv",
+        "display-text": "NithyanandaTV",
+        "icon-url": "https://cdn.jsdelivr.net/gh/shri-kailasa-tech/public/youtube.png"
+    },
+    {
+        "title": "instagram",
+        "link": "https://instagram.com/srinithyananda",
+        "display-text": "@srinithyananda",
+        "icon-url": "https://cdn.jsdelivr.net/gh/shri-kailasa-tech/public/insta.png"
+    },
+    {
+        "title": "website",
+        "link": "https://kailaasa.org/",
+        "display-text": "kailaasa.org",
+        "icon-url": "https://cdn.jsdelivr.net/gh/shri-kailasa-tech/public/website.png"
+    },
+    {
+        "title": "email",
+        "link": "contact@kailaasa.org",
+        "display-text": "contact@kailaasa.org",
+        "icon-url": "https://cdn.jsdelivr.net/gh/shri-kailasa-tech/public/mail.png"
+    }]
 }
