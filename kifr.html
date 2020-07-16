@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+    #filters { 
+        text-align: center;
+        max-width: 1600px;
+        margin: 0 auto;
+    }
+
+    /* ---- button ---- */
+
+    .button {
+        display: inline-block;
+        padding: 0.5em 1.0em;
+        background: #EEE;
+        border: none;
+        border-radius: 4px;
+        color: #5F4E4E;
+        font-family: Lato;
+        font-weight: 600;
+        font-size: 16px;
+        text-shadow: 0 1px white;
+        cursor: pointer;
+    }
+
+    .button:hover {
+        background-color: #ebe1e1;
+        color: #222;
+    }
+
+    .button:active,
+    .button.is-checked {
+        color: #5e2121;
+        background-color: #f1eded;
+        box-shadow: inset 0 1px 10px hsla(0, 0%, 0%, 0.2);
+    }
+
+
+    /* ---- button-group ---- */
+
+    .button-group:after {
+        content: '';
+        display: block;
+        clear: both;
+    }
+
+    .button-group .button {
+        float: left;
+        border-radius: 0;
+        margin-left: 0;
+        margin-right: 1px;
+    }
+
+    .button-group .button:first-child { border-radius: 0.5em 0 0 0.5em; }
+    .button-group .button:last-child { border-radius: 0 0.5em 0.5em 0; }
+
+    /* ---- grid ---- */
+
+    .grid {
+        background: #ffffff;
+        padding: 2em 0;
+        max-width:1600px; margin:0 auto;
+    }
+
+    /* clear fix */
+    .grid:after {
+        content: '';
+        display: block;
+        clear: both;
+    }
+
+    /* ui group */
+
+    .ui-group {
+        display: inline-block;
+    }
+
+    .ui-group h3 {
+        display: inline-block;
+        vertical-align: top;
+        line-height: 0.3em;
+        margin-right: 0.2em;
+        font-size: 16px;
+        color: #5e2121;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+    }
+
+    .ui-group .button-group {
+        display: inline-block;
+        margin-right: 3em;
+    }
+
+    /* item */
+
+    .item {
+        float: left;
+        font-size: 18px;
+        background: #f1eded;
+        max-width: 18em;
+        min-width: 18em;
+        border-radius: 4px;
+        transition: 0.3s; 
+        margin: 0.5em;   
+    }
+
+    .item:hover {
+        transition: 0.3s;
+        box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+    }
+
+    @media only screen and (max-width: 576px) {
+        .item {
+            max-width: 18em;
+            min-width: 13em;
+        }
+    }
+
+    .swiper-slide-content {
+        /* Center slide text vertically */
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        flex-direction: column;
+        /* -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        -webkit-justify-content: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        -webkit-align-items: center;
+        align-items: center; */
+        padding: 1em;
+    }
+
+    .swiper-slide-title {
+        font-size: 1.2em;
+        font-family: Lato;
+        font-weight: 500;
+        padding-bottom: 0.5em;
+        line-height: 1.1em;
+        color: #5e2121;
+    }
+
+    .swiper-slide-description {
+        font-size: 0.8em;
+        font-family: Karla;
+        padding-bottom: 0.5em;
+        color: #5F4E4E;
+    }
+
+    .swiper-slide-button {
+        font-size: 1em;
+        font-family: Lato;
+        text-transform: uppercase;
+        letter-spacing: 3px;
+        padding: 5px 10px;
+        max-width: 85px;
+        color: #998368;
+        transition: 0.3s;
+        text-align: center;
+        border-radius: 6px;
+        text-decoration: none;
+    }
+
+    .swiper-slide-button:hover {
+        color: #D5C177;
+        background-color: rgba(94, 33, 33, 0.05);
+        letter-spacing: 4px;
+        transition: 0.3s;
+        text-decoration: none;
+    }
+</style>
+</head>
+<body>
+<div id="filters">
+    <div class="ui-group">
+        <h3>Category</h3>
+        <div class="button-group js-radio-button-group" data-filter-group="color">
+            <button class="button is-checked" data-filter="">Any</button>
+            <button class="button" data-filter=".hdh">HDH</button>
+            <button class="button" data-filter=".hinduism-now">Hinduism Now</button>
+            <button class="button" data-filter=".kalpataru">Kalpataru</button>
+        </div>
+    </div>
+    <div class="ui-group">
+        <h3>Social Media Platform</h3>
+        <div class="button-group js-radio-button-group" data-filter-group="size">
+            <button class="button is-checked" data-filter="">Any</button>
+            <button class="button" data-filter=".facebook">Facebook</button>
+            <button class="button" data-filter=".twitter">Twitter</button>
+            <button class="button" data-filter=".youtube">Youtube</button>
+            <button class="button" data-filter=".website">Website</button>
+        </div>
+    </div>
+</div>
+<div class="grid">
+    <div class="item facebook hdh">
+        <div class="swiper-slide-content">
+            <div class="swiper-slide-title">KAILASA's HDH Nithyananda Paramashivam</div>
+            <div class="swiper-slide-description">Official Facebook page of KAILASA's HDH Nithyananda Paramashivam</div><a href="https://facebook.com/ParamahamsaNithyananda/" class="swiper-slide-button">VISIT</a>
+        </div>
+    </div>
+    <div class="item facebook hinduism-now">Hinduism Now Facebook</div>
+    <div class="item facebook kalpataru">Kalpataru Facebook</div>
+    <div class="item facebook hdh">HDH Facebook</div>
+    <div class="item facebook hinduism-now">Hinduism Now Facebook</div>
+    <div class="item facebook kalpataru">Kalpataru Facebook</div>
+    <div class="item twitter hdh">HDH Twitter</div>
+    <div class="item twitter hinduism-now">Hinduism Now Twitter</div>
+    <div class="item twitter kalpataru">Kalpataru Twitter</div>
+    <div class="item twitter hdh">HDH Twitter</div>
+    <div class="item twitter hinduism-now">Hinduism Now Twitter</div>
+    <div class="item twitter kalpataru">Kalpataru Twitter</div>
+    <div class="item youtube hdh">HDH Youtube</div>
+    <div class="item youtube hinduism-now">Hinduism Now Youtube</div>
+    <div class="item youtube kalpataru">Kalpataru Youtube</div>
+    <div class="item youtube hdh">HDH Youtube</div>
+    <div class="item youtube hinduism-now">Hinduism Now Youtube</div>
+    <div class="item youtube kalpataru">Kalpataru Youtube</div>
+    <div class="item website hdh">HDH Website</div>
+    <div class="item website hinduism-now">Hinduism Now Website</div>
+    <div class="item website kalpataru">Kalpataru Website</div>
+    <div class="item website hdh">HDH Website</div>
+    <div class="item website hinduism-now">Hinduism Now Website</div>
+    <div class="item website kalpataru">Kalpataru Website</div>
+</div>
+<!-- <script type="text/javascript" src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.js"></script> -->
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/shri-kailasa-tech/public-icons/isotope.js"></script>
+<script type="text/javascript">
+// store filter for each group
+var filters = {};
+var iso;
+
+function initialize() {
+    // init Isotope
+    iso = new Isotope('.grid', {
+        itemSelector: '.item',
+        filter: function(itemElem) {
+
+            var isMatched = true;
+
+            for (var prop in filters) {
+                var filter = filters[prop];
+                var filterType = typeof filter;
+                if (filter) {
+                    isMatched = matchesSelector(itemElem, filter);
+                }
+                // break if not matched
+                if (!isMatched) {
+                    break;
+                }
+            }
+            return isMatched;
+        }
+    });
+
+    document.querySelector('#filters').addEventListener('click', function(event) {
+        // only work with buttons
+        if (!matchesSelector(event.target, 'button')) {
+            return;
+        }
+        // get group key
+        var buttonGroup = event.target.parentNode;
+        var filterGroup = buttonGroup.getAttribute('data-filter-group');
+        // set filter for group
+        filters[filterGroup] = event.target.getAttribute('data-filter');
+        // arrange, and use filter fn
+        iso.arrange();
+    });
+
+    // change is-checked class on buttons
+    var buttonGroups = document.querySelectorAll('.button-group');
+    for (var i = 0; i < buttonGroups.length; i++) {
+        var buttonGroup = buttonGroups[i];
+        radioButtonGroup(buttonGroup);
+    }
+
+    function radioButtonGroup(buttonGroup) {
+        buttonGroup.addEventListener('click', function(event) {
+            // only work with buttons
+            if (!matchesSelector(event.target, 'button')) {
+                return;
+            }
+            buttonGroup.querySelector('.is-checked').classList.remove('is-checked');
+            event.target.classList.add('is-checked');
+        });
+    }
+}
+
+function ready(fn) {
+    if (document.readyState != 'loading') {
+        fn();
+    } else {
+        document.addEventListener('DOMContentLoaded', fn);
+    }
+}
+
+ready(initialize);
+</script>
+</body>
+</html>
+
